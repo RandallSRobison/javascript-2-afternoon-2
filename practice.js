@@ -229,8 +229,12 @@ for(var i = 0; i < num2; i++){
 */
 
 //Code Here
-
-
+function longer(arr1, arr2){
+  if(arr1.length > arr2.length){
+    return arr1
+  }
+  return arr2
+}
 
 /*
   As a continuation of the previous problem, write another function called 'both'.
@@ -241,7 +245,17 @@ for(var i = 0; i < num2; i++){
 */
 
 //Code Here
-
+function both(arr1, arr2){
+  const newArr = []
+  for(let i=0; i<arr1.length; 1++){
+    for(let j=0; j<arr2.length; j++){
+      if(arr2[j] === arr1[i]){
+        newArr.push(arr2[j])
+    }
+  }
+}
+return newArr
+}
 
 
 ////////// PROBLEM 12 //////////
