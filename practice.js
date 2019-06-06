@@ -251,14 +251,14 @@ function both(arr1, arr2){
     for(let j=0; j<arr2.length; j++){
       if(arr2[j] === arr1[i]){
         newArr.push(arr2[j])
+      }
     }
   }
-}
-return newArr
+  return newArr
 }
 
 
-////////// PROBLEM 12 //////////
+////////// PROBLEM 12 //////////  
 
 // Do not edit the code below.
 var devMountainEmployees = [];
